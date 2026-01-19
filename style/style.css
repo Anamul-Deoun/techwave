@@ -357,6 +357,7 @@
     border-radius: 0 0 24px 24px;
     width: 380px;
     height: 214px;
+    margin-top: -3px;
 }
 
 .ep-content-title {
@@ -476,7 +477,17 @@
         border-radius: 24px;
     }
 
-   
+    /* episodes responsive section */
+    .ep-container{
+        max-width: 576px;
+        margin: 0 auto;
+    }
+    .episode-grid {
+        grid-template-columns: 1fr;
+    }
+    .single-episode{
+        margin-bottom: 16px;
+    }
 
 
 }
