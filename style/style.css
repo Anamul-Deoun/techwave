@@ -15,6 +15,9 @@
     background-color: #1A0B2E;
 }
 
+.bg-3{
+    background-color: #230E3D;
+}
 .container {
     max-width: 1200px;
     /* max-width: 992px; */
@@ -210,6 +213,102 @@
     font-weight: 300;
     line-height: 30px;
 }
+
+/* choose section styles */
+.choose{
+    padding: 120px 0;
+}
+.choose-title{
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.choose-grid{
+    /* background-color: #35116540; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 30px;
+}
+.choose-content-1{
+    background-color: #35116540;
+    grid-column: span 1;
+    grid-row: span 2;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.choose-content-2{
+    background-color: #35116540;
+    grid-column: span 2;
+    grid-row: span 1;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.choose-content-3{
+    background-color: #35116540;
+    grid-column: span 2;
+    grid-row: span 1;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.choose-content-4{
+    background-color: #35116540;
+    grid-column: span 2;
+    grid-row: span 1;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+.choose-content-5{
+    background-color: #35116540;
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.choose-content-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.choose-content-description{
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 300;
+}
+
 
 
 
