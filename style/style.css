@@ -383,6 +383,54 @@
     gap: 6px;
 }
 
+/* host section styles */
+.host{
+    padding-bottom: 120px;
+}
+.host-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.host-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 40px;
+    gap: 30px;
+}
+
+.host-name{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.host-description{
+    color: #ffffff;
+    line-height: 24px;
+    opacity: 0.6;
+    font-weight: 300;
+    margin: 16px 0;
+}
+.social-links{
+    display: flex;
+    gap: 8px;
+}
+
+.link{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10000px;
+}
 
 
 
@@ -479,8 +527,8 @@
 
     /* episodes responsive section */
     .ep-container{
-        max-width: 576px;
-        margin: 0 auto;
+        /* max-width: 576px; */
+        /* margin: 0 auto; */
     }
     .episode-grid {
         grid-template-columns: 1fr;
