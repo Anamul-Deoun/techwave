@@ -384,10 +384,11 @@
 }
 
 /* host section styles */
-.host{
+.host {
     padding-bottom: 120px;
 }
-.host-title{
+
+.host-title {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
@@ -395,7 +396,7 @@
     margin-bottom: 40px;
 }
 
-.host-box{
+.host-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -404,25 +405,26 @@
     gap: 30px;
 }
 
-.host-name{
+.host-name {
     font-size: 32px;
     font-weight: 700;
     color: #ffffff;
 }
 
-.host-description{
+.host-description {
     color: #ffffff;
     line-height: 24px;
     opacity: 0.6;
     font-weight: 300;
     margin: 16px 0;
 }
-.social-links{
+
+.social-links {
     display: flex;
     gap: 8px;
 }
 
-.link{
+.link {
     width: 40px;
     height: 40px;
     border: 1px solid #533C72;
@@ -526,16 +528,36 @@
     }
 
     /* episodes responsive section */
-    .ep-container{
-        /* max-width: 576px; */
-        /* margin: 0 auto; */
+    .ep-container {
+        max-width: 576px;
+        margin: 0 auto;
     }
+
     .episode-grid {
         grid-template-columns: 1fr;
     }
-    .single-episode{
+
+    .single-episode {
         margin-bottom: 16px;
     }
 
+    /* host responsive section */
+    .host-title{
+        font-size: 32px;
+    }
+    .host-box{
+        flex-direction: column;
+        text-align: center;
+    }
+    .host-name{
+        font-size: 24px;
+    }
+    .social-links{
+        justify-content: center;
+    }
+    .host{
+        padding: 0 20px 40px 20px;
+        /* padding-bottom: 40px; */
+    }
 
 }
