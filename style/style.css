@@ -62,41 +62,60 @@
 /* banner styles section */
 .banner{
     background: url(../assets/hero-bg.png);
-    height: 91.6vh;
-    /* background-repeat: no-repeat; */
-    background-size: cover;
+    /* height: 91.6vh; */
+    /* background-repeat: repeat-x; */
+    background-position: center;
+    /* background-size: cover; */
     position: relative;
+    padding: 100px 0;
 }
-/* .banner-img{
-    height: 100%;
+.banner-img{
+    height: 78%;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 .hero-bg-circle{
-    width: 22%;
-    position: absolute;
-    top: 16%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* width: 22%; */
+    /* position: absolute; */
+    /* top: 16%; */
+    /* top: 95px; */
     /* padding-top: 6%; */
-    left: 39%;
+    /* left: 39%; */
+    /* left: 765px; */
 }
 
 .microphone{
-    width: 7%;
+    /* width: 7%; */
     position: absolute;
-    top: 29%;
-    left: 46.5%;
+    /* top: 29%;
+    left: 46.5%; */
+}
+.circle-new{
+    position: relative;
 }
 .new{
-    width: 6%;
+    /* width: 6%; */
     position: absolute;
-    top: 18%;
-    left: 55%;
+    /* top: 19%; */
+    /* left: 53.5%; */
+    /* top: 180px; */
+    left: 230px;
 }
 .banner-content{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     text-align: center;
-    padding-top: 33%;
+    /* padding-top: 33%; */
+    /* gap: 40px; */
+    margin-top: 40px;
     
 }
 .banner-title{
@@ -148,6 +167,7 @@
 
 /* responsive design breakpoints */
 @media screen and (max-width: 576px) {
+    /* navbar responsive section */
     .navbar{
         margin: 0 20px;
     }
@@ -159,4 +179,11 @@
     .hamburger {
         display: inline;
     }
+
+    /* banner responsive section */
+    .banner{
+        background-position: center;
+    }
+
+
 }
