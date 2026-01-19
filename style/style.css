@@ -433,7 +433,34 @@
     align-items: center;
     border-radius: 10000px;
 }
-
+/* footer section styles */
+.footer{
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 32px 0;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.copy{
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 300;
+}
 
 
 
