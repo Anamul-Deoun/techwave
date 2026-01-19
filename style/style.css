@@ -76,19 +76,19 @@
     align-items: center;
 }
 
-.hero-bg-circle{
-    /* display: flex;
+/* .hero-bg-circle{
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; */
-    /* width: 22%; */
-    /* position: absolute; */
-    /* top: 16%; */
-    /* top: 95px; */
-    /* padding-top: 6%; */
-    /* left: 39%; */
-    /* left: 765px; */
-}
+    text-align: center;
+    width: 22%;
+    position: absolute;
+    top: 16%;
+    top: 95px;
+    padding-top: 6%;
+    left: 39%;
+    left: 765px;
+} */
 
 .microphone{
     /* width: 7%; */
@@ -158,6 +158,8 @@
     color: #00FF88;
 }
 
+/*  */
+
 
 
 
@@ -183,7 +185,8 @@
     /* banner responsive section */
     .banner{
         background-position: center;
+        
     }
-
+    
 
 }
