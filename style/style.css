@@ -177,6 +177,51 @@
     color: #00FF88;
 }
 
+/* background circle animation */
+.animated-pulse {
+    border-radius: 50%;
+    animation: logo-pulse 3s infinite ease-in-out;
+}
+
+@keyframes logo-pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(236, 72, 153, 0.4);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 50px rgba(236, 72, 153, 0.7), 0 0 80px rgba(139, 92, 246, 0.3);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(236, 72, 153, 0.4);
+    }
+}
+
+/* microphone animation */
+.microphone-pulse {
+    animation: mic-pulse 3s infinite ease-in-out;
+}
+
+@keyframes mic-pulse {
+    0% {
+        transform: scale(1);
+
+    }
+
+    50% {
+        transform: scale(1.05);
+
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+}
+
 /* about section styles */
 .about {
     padding: 50px 0 120px;
@@ -495,11 +540,21 @@
     }
 
     .banner {
-        background-position: center;
+        background-size: cover;
+        /* background-position: center; */
+        padding: 60px 20px 20px 20px;
 
     }
 
+    .banner-btn {
+        padding-bottom: 40px;
+    }
+
     /* about responsive section */
+    .about {
+        padding: 40px 20px;
+    }
+
     .about-title {
         font-size: 32px;
     }
@@ -509,18 +564,25 @@
         gap: 40px;
     }
 
+    .about-content hr {
+        margin: 40px 0;
+    }
 
     /* choose responsive section */
+    .choose {
+        padding: 40px 20px;
+    }
+
     .choose-title {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .choose-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 100px);
+        grid-template-rows: repeat(3, 120px);
         gap: 16px;
-        padding: 0 20px;
+        /* padding: 0 20px; */
     }
 
     .choose-content-1 {
@@ -559,6 +621,17 @@
     }
 
     /* episodes responsive section */
+    .episode {
+        padding: 40px 20px;
+    }
+
+    .ep-video iframe {
+        width: 350px;
+
+    }
+    .ep-content{
+        width: 350px;
+    }
     .ep-container {
         max-width: 576px;
         margin: 0 auto;
