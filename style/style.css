@@ -164,6 +164,10 @@
     color: #ffffff;
 }
 
+.banner-btn1:hover {
+    background: linear-gradient(30deg, #9100F8, #FB09B4, #F7E93F);
+}
+
 .banner-btn2 {
     padding: 12px 20px;
     display: flex;
