@@ -517,7 +517,7 @@
 
 
 
-/* responsive design breakpoints */
+/* responsive design mobile device */
 @media screen and (max-width: 576px) {
 
     /* navbar responsive section */
@@ -629,9 +629,11 @@
         width: 350px;
 
     }
-    .ep-content{
+
+    .ep-content {
         width: 350px;
     }
+
     .ep-container {
         max-width: 576px;
         margin: 0 auto;
